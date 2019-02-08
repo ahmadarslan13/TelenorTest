@@ -1,3 +1,11 @@
+/*
+ * *
+ *  * Created by Arslan on 2/9/19 4:37 AM
+ *  * Copyright (c) 2019 . All rights reserved.
+ *  * Last modified 2/9/19 4:14 AM
+ *
+ */
+
 package com.example.telenorassignmentapp.Utility;
 
 public class Constants {

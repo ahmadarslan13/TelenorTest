@@ -12,28 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e2c648f-7f59-4882-905e-ed1fb92cff70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Utility/BaseActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Utility/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Utility/NetworkCalls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/Arslan__CopyRight.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Utility/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/FilmListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Activities/FilmListActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/FilmModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Models/FilmModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/MoviesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/MoviesAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/PeopleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/PeopleAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/PeopleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Models/PeopleModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_scrolling.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_scrolling.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_scrolling.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_scrolling.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/MoviesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/MoviesAdapter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,23 +46,23 @@
         <counts>
           <entry key="dummy" value="12" />
           <entry key="gradle" value="19" />
-          <entry key="java" value="1595" />
-          <entry key="txt" value="112" />
+          <entry key="java" value="1596" />
+          <entry key="txt" value="171" />
           <entry key="xml" value="301" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="19" />
-          <entry key="JAVA" value="1595" />
-          <entry key="PLAIN_TEXT" value="124" />
+          <entry key="JAVA" value="1596" />
+          <entry key="PLAIN_TEXT" value="183" />
           <entry key="XML" value="301" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="34" />
+          <entry key="java" value="35" />
           <entry key="pro" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="23" />
@@ -90,7 +71,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="35" />
           <entry key="ProGuard File" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="23" />
@@ -104,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/PeopleAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="65" />
+              <caret line="34" column="65" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/MoviesAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,13 +179,29 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Utility/NetworkCalls.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Activities/FilmListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/PeopleAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/MoviesAdapter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="26" />
+    <option name="y" value="41" />
     <option name="width" value="1280" />
     <option name="height" value="710" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -391,7 +388,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="0715f7b26be23136" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -499,11 +496,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549646344295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Code merged in the proper package name">
+      <created>1549668330553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549668330553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="710" extended-state="0" />
+    <frame x="26" y="41" width="1280" height="710" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24071082" />
@@ -538,7 +542,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project initiated" />
     <MESSAGE value="Completed models&#10;working on the UI element and downloading data using libs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed models&#10;working on the UI element and downloading data using libs" />
+    <MESSAGE value="Code merged in the proper package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code merged in the proper package name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -715,7 +720,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/PeopleAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -725,17 +730,24 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="65" />
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Activities/aaa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/telenorassignmentapp/Adapters/MoviesAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -745,6 +757,18 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Arslan- CopyRight</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>

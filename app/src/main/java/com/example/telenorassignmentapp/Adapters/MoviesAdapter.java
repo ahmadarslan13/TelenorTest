@@ -1,4 +1,13 @@
+/*
+ * *
+ *  * Created by Arslan on 2/9/19 4:36 AM
+ *  * Copyright (c) 2019 . All rights reserved.
+ *  * Last modified 2/9/19 4:36 AM
+ *
+ */
+
 package com.example.telenorassignmentapp.Adapters;
+
 
 
 import android.support.v7.widget.RecyclerView;
