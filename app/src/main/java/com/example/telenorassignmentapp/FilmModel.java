@@ -2,9 +2,7 @@
 
 package com.example.telenorassignmentapp;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 
 public class FilmModel {
@@ -21,7 +19,8 @@ public class FilmModel {
     private List<String> locations = null;
     private List<String> vehicles = null;
     private String url;
-    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
+    private Object length;
+//    private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
     public String getId() {
         return id;
@@ -119,12 +118,22 @@ public class FilmModel {
         this.url = url;
     }
 
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
+    public Object getLength() {
+        return length;
     }
 
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
+    public void setLength(Object length) {
+        this.length = length;
     }
+
+//    public Map<String, Object> getAdditionalProperties() {
+//        return this.additionalProperties;
+//    }
+//
+//    public void setAdditionalProperty(String name, Object value) {
+//        this.additionalProperties.put(name, value);
+//    }
+
+
 
 }

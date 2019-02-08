@@ -1,5 +1,6 @@
 package com.example.telenorassignmentapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,6 +13,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ProgressBar;
 
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
@@ -21,7 +23,6 @@ import com.androidnetworking.interfaces.ParsedRequestListener;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class MainActivity extends AppCompatActivity {
 
     private List<FilmModel> movieList = new ArrayList<>();
@@ -29,13 +30,16 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private MoviesAdapter mAdapter;
     private String TAG = "Scrolling Activity tag";
-
+    private ProgressBar pb_loader;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setTitle("Cast Names");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        pb_loader = findViewById(R.id.pb_loader);
+        pb_loader.setVisibility(View.VISIBLE);
 
         callingPeopleWebAPi();
 
@@ -63,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(List<FilmModel> films) {
                         // do anything with response
+                        pb_loader.setVisibility(View.GONE);
                         Log.d(TAG, "userList size : " + films.size());
                         for (FilmModel oneFilm : films) {
                             Log.d(TAG, "id : " + oneFilm.getId());
@@ -88,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onError(ANError anError) {
                         // handle error
                         Log.d(TAG, "Error : " + anError.getErrorBody());
+                        pb_loader.setVisibility(View.GONE);
                     }
                 });
     }
@@ -103,12 +112,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(List<PeopleModel> films) {
                         // do anything with response
-                        Log.d(TAG, "userList size : " + films.size());
-                        for (PeopleModel oneFilm : films) {
-                            Log.d(TAG, "id : " + oneFilm.getId());
-                            Log.d(TAG, "firstname : " + oneFilm.getAge());
-                            Log.d(TAG, "lastname : " + oneFilm.getGender());
-                        }
+                        pb_loader.setVisibility(View.GONE);
 
                         peopleList.clear();
                         peopleList.addAll(films);
@@ -116,19 +120,12 @@ public class MainActivity extends AppCompatActivity {
 
                         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
-                        PeopleAdapter mPeopleAdapter = new PeopleAdapter(peopleList);
+                        PeopleAdapter mPeopleAdapter = new PeopleAdapter(peopleList, MainActivity.this);
                         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
                         recyclerView.setLayoutManager(mLayoutManager);
                         recyclerView.setItemAnimator(new DefaultItemAnimator());
                         recyclerView.setAdapter(mPeopleAdapter);
-                        recyclerView.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                Intent myIntent = new Intent(MainActivity.this, FilmListActivity.class);
-                                myIntent.putExtra("key", value); //Optional parameters
-                                startActivity(myIntent);
-                            }
-                        });
+
 
 
                     }
@@ -136,29 +133,10 @@ public class MainActivity extends AppCompatActivity {
                     public void onError(ANError anError) {
                         // handle error
                         Log.d(TAG, "Error : " + anError.getErrorBody());
+                        pb_loader.setVisibility(View.GONE);
                     }
                 });
     }
 
 
-    /*@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_scrolling, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }*/
 }

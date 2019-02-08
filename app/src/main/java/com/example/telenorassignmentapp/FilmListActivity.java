@@ -10,11 +10,14 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.ProgressBar;
 
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.ParsedRequestListener;
+
+import org.parceler.Parcels;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,70 +30,62 @@ public class FilmListActivity extends AppCompatActivity {
     private MoviesAdapter mAdapter;
     private String TAG = "Film Activity tag";
 
+    private ProgressBar pb_loader;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Film Names");
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        pb_loader = findViewById(R.id.pb_loader);
+        mAdapter = new MoviesAdapter(movieList);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(mAdapter);
 
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
-//
-//        callingPeopleWebAPi();
+        PeopleModel onePersonModel = (PeopleModel) Parcels.unwrap(getIntent().getParcelableExtra("films"));
+
+        for (String urls: onePersonModel.getFilms()) {
+            pb_loader.setVisibility(View.VISIBLE);
+            callingFilmsWebApi(urls);
+        }
+
+
 
 
     }
 
-    private  void callingFilmsWebApi(){
+    private  void callingFilmsWebApi(String urls){
         /*-------------- Getting the filmList----------------*/
-        AndroidNetworking.get("https://ghibliapi.herokuapp.com/films")
-                .addPathParameter("pageNumber", "0")
-//                .addQueryParameter("limit", "3")
+
+        AndroidNetworking.get(urls)
+                .addPathParameter("userId", "1")
                 .setTag(this)
                 .setPriority(Priority.LOW)
                 .build()
-                .getAsObjectList(FilmModel.class, new ParsedRequestListener<List<FilmModel>>() {
+                .getAsObject(FilmModel.class, new ParsedRequestListener<FilmModel>() {
                     @Override
-                    public void onResponse(List<FilmModel> films) {
+                    public void onResponse(FilmModel films) {
                         // do anything with response
-                        Log.d(TAG, "userList size : " + films.size());
-                        for (FilmModel oneFilm : films) {
-                            Log.d(TAG, "id : " + oneFilm.getId());
-                            Log.d(TAG, "firstname : " + oneFilm.getTitle());
-                            Log.d(TAG, "lastname : " + oneFilm.getProducer());
-                        }
-
-                        movieList.clear();
-                        movieList.addAll(films);
-
-
-                        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-
-                        mAdapter = new MoviesAdapter(movieList);
-                        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
-                        recyclerView.setLayoutManager(mLayoutManager);
-                        recyclerView.setItemAnimator(new DefaultItemAnimator());
-                        recyclerView.setAdapter(mAdapter);
-
+                        movieList.add(films);
+                        mAdapter.notifyDataSetChanged();
+                        pb_loader.setVisibility(View.GONE);
 
                     }
                     @Override
                     public void onError(ANError anError) {
                         // handle error
                         Log.d(TAG, "Error : " + anError.getErrorBody());
+                        pb_loader.setVisibility(View.GONE);
                     }
                 });
     }
 
-    private void callingPeopleWebAPi(){
+ /*   private void callingPeopleWebAPi(){
         AndroidNetworking.get("https://ghibliapi.herokuapp.com/people/")
                 .addPathParameter("pageNumber", "0")
 //                .addQueryParameter("limit", "3")
@@ -128,7 +123,7 @@ public class FilmListActivity extends AppCompatActivity {
                         Log.d(TAG, "Error : " + anError.getErrorBody());
                     }
                 });
-    }
+    }*/
 
 
     /*@Override

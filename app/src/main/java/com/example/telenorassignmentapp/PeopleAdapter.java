@@ -1,32 +1,47 @@
 package com.example.telenorassignmentapp;
 
 
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import org.parceler.Parcels;
 
 import java.util.List;
 
 public class PeopleAdapter extends RecyclerView.Adapter<PeopleAdapter.MyViewHolder> {
 
     private List<PeopleModel> moviesList;
+    Activity mActivity;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView title, year, genre;
+        public TextView name, age, gender, eye_color, hair_color;
+        public RelativeLayout rl_people_list;
 
         public MyViewHolder(View view) {
             super(view);
-            title = (TextView) view.findViewById(R.id.title);
-            genre = (TextView) view.findViewById(R.id.genre);
-            year = (TextView) view.findViewById(R.id.year);
+            name = view.findViewById(R.id.title);
+            gender = view.findViewById(R.id.gender);
+            age = view.findViewById(R.id.age);
+            eye_color = view.findViewById(R.id.eye_color);
+            hair_color = view.findViewById(R.id.hair_color);
+
+            rl_people_list = view.findViewById(R.id.rl_people_list);
         }
     }
 
 
-    public PeopleAdapter(List<PeopleModel> moviesList) {
+    public PeopleAdapter(List<PeopleModel> moviesList, Activity activity) {
         this.moviesList = moviesList;
+        this.mActivity = activity;
     }
 
     @Override
@@ -39,10 +54,27 @@ public class PeopleAdapter extends RecyclerView.Adapter<PeopleAdapter.MyViewHold
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        PeopleModel movie = moviesList.get(position);
-        holder.title.setText(movie.getAge());
-        holder.genre.setText(movie.getGender());
-        holder.year.setText(movie.getName());
+        final PeopleModel movie = moviesList.get(position);
+
+
+
+        holder.name.setText(Html.fromHtml( "<b>" + "Name: " + "</b> " +  movie.getName() ));
+        holder.gender.setText(Html.fromHtml( "<b>" + "Gender: " + "</b> "  + movie.getGender()));
+        holder.age.setText(Html.fromHtml( "<b>" + "Age: " + "</b> " + movie.getAge()));
+        holder.eye_color.setText(Html.fromHtml( "<b>" + "Eye Color: " + "</b> " +  movie.getEye_color()));
+        holder.hair_color.setText(Html.fromHtml( "<b>" + "Hair Color: " + "</b> " + movie.getHair_color()));
+
+        holder.rl_people_list.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                Intent myIntent = new Intent(mActivity, FilmListActivity.class);
+                myIntent.putExtra("films", Parcels.wrap(movie)); //Optional parameters
+                mActivity.startActivity(myIntent);
+
+            }
+        });
     }
 
     @Override

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_people_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?android:attr/selectableItemBackground"
@@ -17,20 +18,40 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:textColor="@color/title"
+            android:layout_toLeftOf="@+id/age"
+            android:text="Name"
             android:textSize="16dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/genre"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/title" />
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_below="@id/title" />
+
+
+
+    <TextView
+        android:id="@+id/eye_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eye Color"
+        android:layout_below="@id/gender" />
+
+    <TextView
+        android:id="@+id/hair_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hair Color"
+        android:layout_below="@id/eye_color" />
 
         <TextView
-            android:id="@+id/year"
+            android:id="@+id/age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
+            android:text="Age"
             android:textColor="@color/year" />
 
     </RelativeLayout>
