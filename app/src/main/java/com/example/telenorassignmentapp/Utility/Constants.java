@@ -13,4 +13,5 @@ public class Constants {
     public static final String peopleAPI = "people/";
     public static final String peopleToolbar = "Cast Names";
     public static final String FilmToolbar = "Film Names";
+    public static final String NoInternetConnection = "Make sure, your Network Connection available.";
 }

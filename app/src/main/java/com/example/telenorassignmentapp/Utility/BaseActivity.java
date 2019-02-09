@@ -24,6 +24,10 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     protected void showErrorMessage(String message, CoordinatorLayout coordinatorLayout){
+
+        if(message.contains("java.net.UnknownHostException")){
+            message = Constants.NoInternetConnection;
+        }
         Snackbar snackbar = Snackbar
                 .make(coordinatorLayout, message, Snackbar.LENGTH_LONG);
 
