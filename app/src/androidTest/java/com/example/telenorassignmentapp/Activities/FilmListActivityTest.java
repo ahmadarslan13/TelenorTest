@@ -38,6 +38,7 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.Matchers.allOf;
 import static org.hamcrest.Matchers.is;
+import static org.hamcrest.core.StringContains.containsString;
 
 @LargeTest
 @RunWith(AndroidJUnit4.class)
@@ -96,7 +97,7 @@ public class FilmListActivityTest {
         relativeLayout.check(matches(isDisplayed()));
 
         ViewInteraction textView = onView(
-                allOf(withId(R.id.title), withText("Title: Princess Mononoke"),
+                allOf(withId(R.id.title), withText(containsString("Title: Princess Mononoke")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -104,10 +105,10 @@ public class FilmListActivityTest {
                                                 0)),
                                 0),
                         isDisplayed()));
-        textView.check(matches(withText("Title: Princess Mononoke")));
+        textView.check(matches(withText(containsString("Title: Princess Mononoke"))));
 
         ViewInteraction textView2 = onView(
-                allOf(withId(R.id.release_date), withText("Release Date: 1997"),
+                allOf(withId(R.id.release_date), withText(containsString("Release Date: 1997")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -115,10 +116,10 @@ public class FilmListActivityTest {
                                                 0)),
                                 1),
                         isDisplayed()));
-        textView2.check(matches(withText("Release Date: 1997")));
+        textView2.check(matches(withText(containsString("Release Date: 1997"))));
 
         ViewInteraction textView3 = onView(
-                allOf(withId(R.id.description), withText("Description: Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict."),
+                allOf(withId(R.id.description), withText(containsString("Description: Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -126,10 +127,10 @@ public class FilmListActivityTest {
                                                 0)),
                                 2),
                         isDisplayed()));
-        textView3.check(matches(withText("Description: Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.")));
+        textView3.check(matches(withText(containsString("Description: Ashitaka, a prince of the disappearing Ainu tribe, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict."))));
 
         ViewInteraction textView4 = onView(
-                allOf(withId(R.id.director), withText("Director: Hayao Miyazaki"),
+                allOf(withId(R.id.director), withText(containsString("Director: Hayao Miyazaki")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -137,10 +138,10 @@ public class FilmListActivityTest {
                                                 0)),
                                 3),
                         isDisplayed()));
-        textView4.check(matches(withText("Director: Hayao Miyazaki")));
+        textView4.check(matches(withText(containsString("Director: Hayao Miyazaki"))));
 
         ViewInteraction textView5 = onView(
-                allOf(withId(R.id.producer), withText("Producer: Toshio Suzuki"),
+                allOf(withId(R.id.producer), withText(containsString("Producer: Toshio Suzuki")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -148,10 +149,10 @@ public class FilmListActivityTest {
                                                 0)),
                                 4),
                         isDisplayed()));
-        textView5.check(matches(withText("Producer: Toshio Suzuki")));
+        textView5.check(matches(withText(containsString("Producer: Toshio Suzuki"))));
 
         ViewInteraction textView6 = onView(
-                allOf(withId(R.id.score), withText("Score: 92"),
+                allOf(withId(R.id.score), withText(containsString("Score: 92")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -159,7 +160,7 @@ public class FilmListActivityTest {
                                                 0)),
                                 5),
                         isDisplayed()));
-        textView6.check(matches(withText("Score: 92")));
+        textView6.check(matches(withText(containsString("Score: 92"))));
 
         ViewInteraction view = onView(
                 allOf(childAtPosition(

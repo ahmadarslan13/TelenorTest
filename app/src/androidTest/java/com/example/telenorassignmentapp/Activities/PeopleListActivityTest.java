@@ -16,6 +16,7 @@ import android.support.test.runner.AndroidJUnit4;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
+import static org.hamcrest.core.StringContains.containsString;
 
 import com.example.telenorassignmentapp.R;
 
@@ -41,6 +42,7 @@ public class PeopleListActivityTest {
 
     @Rule
     public ActivityTestRule<MainActivity> mActivityTestRule = new ActivityTestRule<>(MainActivity.class);
+
 
     @Test
     public void peopleListActivityTest() {
@@ -76,7 +78,7 @@ public class PeopleListActivityTest {
         relativeLayout.check(matches(isDisplayed()));
 
         ViewInteraction textView = onView(
-                allOf(withId(R.id.title), withText("Name: Ashitaka"),
+                allOf(withId(R.id.title), withText(containsString("Name: Ashitaka")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -84,10 +86,11 @@ public class PeopleListActivityTest {
                                                 0)),
                                 0),
                         isDisplayed()));
-        textView.check(matches(withText("Name: Ashitaka")));
+        textView.check(matches(withText(containsString("Name: Ashitaka"))));
+
 
         ViewInteraction textView2 = onView(
-                allOf(withId(R.id.age), withText("Age: late teens"),
+                allOf(withId(R.id.age), withText(containsString("Age: late teens")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -95,10 +98,10 @@ public class PeopleListActivityTest {
                                                 0)),
                                 1),
                         isDisplayed()));
-        textView2.check(matches(withText("Age: late teens")));
+        textView2.check(matches(withText(containsString("Age: late teens"))));
 
         ViewInteraction textView3 = onView(
-                allOf(withId(R.id.gender), withText("Gender: Male"),
+                allOf(withId(R.id.gender), withText(containsString("Gender: Male")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -106,10 +109,10 @@ public class PeopleListActivityTest {
                                                 0)),
                                 2),
                         isDisplayed()));
-        textView3.check(matches(withText("Gender: Male")));
+        textView3.check(matches(withText(containsString("Geder: Male"))));
 
         ViewInteraction textView4 = onView(
-                allOf(withId(R.id.eye_color), withText("Eye Color: Brown"),
+                allOf(withId(R.id.eye_color), withText(containsString("Eye Color: Brown")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -117,10 +120,10 @@ public class PeopleListActivityTest {
                                                 0)),
                                 3),
                         isDisplayed()));
-        textView4.check(matches(withText("Eye Color: Brown")));
+        textView4.check(matches(withText(containsString("Eye Color: Brown"))));
 
         ViewInteraction textView5 = onView(
-                allOf(withId(R.id.hair_color), withText("Hair Color: Brown"),
+                allOf(withId(R.id.hair_color), withText(containsString("Hair Color: Brown")),
                         childAtPosition(
                                 allOf(withId(R.id.rl_people_list),
                                         childAtPosition(
@@ -128,7 +131,7 @@ public class PeopleListActivityTest {
                                                 0)),
                                 5),
                         isDisplayed()));
-        textView5.check(matches(withText("Hair Color: Brown")));
+        textView5.check(matches(withText(containsString("Hair Color: Brown"))));
 
         ViewInteraction imageView = onView(
                 allOf(withId(R.id.imageView),
