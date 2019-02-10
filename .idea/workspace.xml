@@ -11,13 +11,71 @@
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e2c648f-7f59-4882-905e-ed1fb92cff70" name="Default Changelist" comment="">
+    <list default="true" id="1e2c648f-7f59-4882-905e-ed1fb92cff70" name="Default Changelist" comment="rearrange dependencies">
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/allclasses-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/allclasses-noframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/FilmListActivity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/FilmListActivityTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/MainActivity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/MainActivityTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/PeopleListActivity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/PeopleListActivityTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Activities/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Adapters/MoviesAdapter.MyViewHolder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Adapters/MoviesAdapter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Adapters/PeopleAdapter.MyViewHolder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Adapters/PeopleAdapter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Adapters/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Adapters/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Adapters/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Models/FilmModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Models/PeopleModel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Models/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Models/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Models/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Utility/Application.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Utility/BaseActivity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Utility/Constants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Utility/NetworkCalls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Utility/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Utility/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/com/example/telenorassignmentapp/Utility/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/constant-values.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/deprecated-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/help-doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-13.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-14.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-15.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index-files/index-9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/overview-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/overview-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/overview-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/package-list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TelenorApp JAVADoc/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +100,7 @@
     <session id="1215209261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.16" value="1" />
@@ -57,7 +115,7 @@
           <entry key="dummy" value="16" />
           <entry key="gradle" value="393" />
           <entry key="java" value="2023" />
-          <entry key="txt" value="311" />
+          <entry key="txt" value="336" />
           <entry key="xml" value="366" />
         </counts>
       </usages-collector>
@@ -65,14 +123,14 @@
         <counts>
           <entry key="Groovy" value="393" />
           <entry key="JAVA" value="2023" />
-          <entry key="PLAIN_TEXT" value="327" />
+          <entry key="PLAIN_TEXT" value="352" />
           <entry key="XML" value="366" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="5" />
-          <entry key="java" value="76" />
+          <entry key="java" value="77" />
           <entry key="pro" value="1" />
           <entry key="properties" value="1" />
           <entry key="xml" value="28" />
@@ -81,7 +139,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="77" />
           <entry key="ProGuard File" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="28" />
@@ -90,17 +148,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -194,7 +242,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages AndroidView="false" />
       <showMembers AndroidView="false" />
       <hideEmptyPackages AndroidView="false" />
@@ -221,6 +269,11 @@
             </path>
             <path>
               <item name="TelenorAssignmentApp" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="TelenorAssignmentApp" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
@@ -233,76 +286,7 @@
           <expand>
             <path>
               <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="telenorassignmentapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TelenorAssignmentApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TelenorAssignmentApp" type="462c0819:PsiDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="TelenorAssignmentApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -501,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549822103475</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="rearrange dependencies">
+      <created>1549827684698</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549827684698</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -520,10 +511,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2819063" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2819063" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -590,7 +580,8 @@
     <MESSAGE value="Creating intrumentation unit testing" />
     <MESSAGE value="Creating java docs" />
     <MESSAGE value="padding missing in splash screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="padding missing in splash screen" />
+    <MESSAGE value="rearrange dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="rearrange dependencies" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -753,13 +744,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/telenorassignmentapp/ExampleUnitTest.java" />
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/telenorassignmentapp/Models/PeopleModel$$Parcelable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/test/java/com/example/telenorassignmentapp/Activities/FilmListActivityTest.java" />
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/example/telenorassignmentapp/Activities/FilmListActivityTestTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -858,6 +842,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/example/telenorassignmentapp/Models/PeopleModel$$Parcelable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
