@@ -22,12 +22,14 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         EasySplashScreen config = new EasySplashScreen(MainActivity.this)
                 .withFullScreen()
+
                 .withTargetActivity(PeopleListActivity.class)
                 .withSplashTimeOut(3000)
                 .withLogo(R.drawable.telenor_logo);
 
         //create the view
         View easySplashScreenView = config.create();
+        easySplashScreenView.setPadding(100,0,100,0);
         setContentView(easySplashScreenView);
     }
 
