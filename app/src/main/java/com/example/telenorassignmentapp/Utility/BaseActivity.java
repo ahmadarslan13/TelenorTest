@@ -14,7 +14,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.example.telenorassignmentapp.Activities.MainActivity;
 import com.example.telenorassignmentapp.R;
+
+import gr.net.maroulis.library.EasySplashScreen;
 
 public abstract class BaseActivity extends AppCompatActivity {
     protected void settingToolbar(String tName){
@@ -33,4 +36,6 @@ public abstract class BaseActivity extends AppCompatActivity {
 
         snackbar.show();
     }
+
+
 }
